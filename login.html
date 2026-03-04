@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+<div class="container">
+<h2>VICTUS BANK</h2>
+
+<form id="loginForm" class="ff">
+<h2>Let's Go</h2>
+<input type="email" id="email" placeholder="Email" class="form" required><br>
+
+<input type="password" id="password" placeholder="Password" class="form" required><br>
+<label class="show-pass">
+    <input type="checkbox" onclick="togglePassword()"> Show Password
+</label><br>
+
+<button type="submit" class="form">Login</button>
+<p id="message"></p>
+<a href="sign.html" id="reg">Don't have an account? Register</a>
+</form>
+<!-- <href="sign.html"></href> -->
+
+</div>
+
+<script src="login.js"></script>
+<script src="pass.js"></script>
+
+</body>
+</html>
